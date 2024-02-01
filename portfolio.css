@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+body, *{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: black;
+}
+
+header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    background-color: black ;
+}
+.links{
+    display: flex;
+    gap: 20px;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.hero{
+    width: 100%;
+    height: 100vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+.headingtext{
+
+font-family: Work Sans;
+font-size: 56px;
+font-weight: 200;
+line-height: 84px;
+letter-spacing: -0.02em;
+text-align: center;
+color: white;
+padding: 170px;
+
+
+}
+
+.headingtext span{
+    font-weight: 600;  
+}
+
+.container{
+    color: white;
+    padding: 70px;
+    font-size: 40px;
+    font-weight: 200;
+    width: 90vh;
+}
+
+.container span{
+    font-weight: 500;
+ 
+}
+
+.companies{
+    display: flex;
+    gap: 150px;
+    padding-top: 130px;
+
+}
+
+
+.worktext{
+    font-size: 40px;
+    color: white;
+    font-weight: 200;
+    padding: 30px;
+}
+
+
+.templateone img{
+    width: 65vh;
+}
+
+.templateone{
+    padding: 70px;
+}
+
+.whole{
+    display: flex;
+    padding-inline: 120px;
+
+}
+
+.templatetext{
+    color: white;
+}
+
+.lorem{
+    color: white;
+    width: 40vh;
+    line-height: 24px;
+    width: 100%;
+    font-weight: 200;
+    
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    gap: 25px;
+    margin-top: 183px;
+   
+}
+
+.web{
+    color: white;
+    font-weight: 300;
+   opacity: 0.5;
+}
+.sectiontwo{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.plant{
+    display: flex;
+    padding-inline: 120px;
+    
+}
+
+
+.sectionthree{
+    display: flex;
+    gap: 200px;
+   
+}
+.info{
+    color: white;
+    width: 50vh;
+    letter-spacing: 1px;
+    line-height: 22px;
+
+}
+.me{
+    color: white;
+    width: 50vh;
+    padding-top: 122px;
+}
+
+.tell{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 100px;
+    padding: 70px;
+}
+
+.images{
+    display: flex;
+    gap: 40px;
+}
+
+.cover img{
+    margin-top:95px;
+}
+.touch{
+
+    font-family: Work Sans;
+    font-size: 56px;
+    font-weight: 200;
+    line-height: 84px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: white;
+   
+}
+
+.touch span{
+    font-weight: 600px;
+}
+
+.small{
+font-size: 18px;
+font-weight: 300;
+line-height: 27px;
+text-align: center;
+color: white;
+opacity: 0.5;
+
+}
+
+.media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+
+.lorem span{
+    font-weight: 900;
+    color: white;
+
+}
