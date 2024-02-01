@@ -32,3 +32,16 @@ header{
     position: fixed;
     background-color: black ;
 }
+
+.logo{
+    padding: 5px;
+    font-size: 44px;
+}
+
+.links{
+    gap: 9px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
