@@ -21,16 +21,7 @@ header{
     padding: 20px;
     width: 100%;
     position: fixed;
-    background-color: black ;
-}
-header{
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    width: 100%;
-    position: fixed;
-    background-color: black ;
+    background-color: rgb(7, 8, 26) ;
 }
 
 .logo{
@@ -45,3 +36,375 @@ header{
     text-decoration: none;
 }
 
+.links a{
+    color: lightslategrey;
+    text-decoration: none;
+    padding-top: 24px;
+}
+
+
+
+.buttonone{
+    background-color: blue;
+    border-radius: 6px;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+color: white;
+  
+ 
+}
+
+
+.flex{
+    display: flex;
+    gap: 10px;
+}
+
+.buttontwo{
+    background-color: rgb(30, 64, 82);
+    border-radius: 6px;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+    
+
+   
+}
+
+.btn{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+
+}
+
+.headingtext{
+    font-family: Work Sans;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 84px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: white;
+ width: 53%;
+}
+    
+
+.hero{
+    width: 100%;
+    height:60vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ background-color: rgb(29, 29, 39);
+ padding-top: 60px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.name{
+    color: white;
+
+}
+
+.date{
+    color: white;
+
+}
+
+.nds{
+    color: white;
+}
+
+.lorem{
+    padding-top: 70px;
+    margin-left: 255px;
+    }
+.loremone{
+    color: gray;
+    width: 77%;
+   
+   }
+
+   .loremtwo{
+    color: gray;
+    width: 77%;
+    padding-top: 42px;
+    padding-bottom: 42px;
+   }
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(7, 8, 26) ;
+}
+
+
+.quote{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.words{
+    color: gray;
+    width: 67%;
+    padding-top: 30px;
+    text-align: center;
+   
+   }
+
+   .person{
+    color: gray;
+    padding-top: 20px;
+   }
+
+   .comment{
+    font-weight: 600;
+    color: white;
+    font-size: 40px;
+    margin-left: 164px;
+   }
+
+   .bxfour{
+    justify-content:left;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:74vh;
+   background-color: rgb(7, 8, 26) ;
+   }
+
+
+   .myinput{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    border-bottom: 1px solid gray;
+    padding: 14px;
+    margin-left: 120px;
+   }
+
+   .cred{
+    padding-top: 40px;
+    padding-bottom: 40px;
+   }
+
+   .mymessage{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    border-bottom: 1px solid gray;
+    padding: 14px;
+    width: 65%;
+    margin-left: 120px;
+    padding: 60px;
+    
+   }
+
+   .agree{
+    display: flex;
+    gap: 10px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+   }
+
+   .box{
+    border-radius: 4px;
+    border: 1px solid gray;
+    opacity: 0.5;
+    margin-left: 120px;
+   }
+
+   .read{
+    color: blue;
+   }
+
+   
+.button{
+    background-color: blue;
+    border-radius: 6px;
+color: white;
+width: 15%;
+padding: 18px;
+padding-left: 40px;
+margin-left: 92px;
+ 
+}
+
+.line{
+    background-color: white;
+    opacity: 0.5;
+    height: 1px;
+    margin-left: 62px;
+    width: 90%;
+    margin-top: 80px;
+}
+
+.footer {
+    background-color: rgb(7, 8, 26) ;
+    width: 100%;
+    display: flex;
+    gap: 90px;
+    padding: 70px;
+   
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.head{
+    font-size: 34px;
+    color: white;
+}
+
+.lor{
+    color: rgb(78, 83, 99);
+    width: 30vh;
+    
+}
+.two {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.he{
+    font-size: 24px;
+    color: white;
+}
+
+.h{
+    color: rgb(78, 83, 99);
+}
+
+.c{
+    display: flex;
+    gap: 10px;
+}
+
+.car{
+    color: rgb(78, 83, 99);
+}
+.btn{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    background-color: blue;
+    color: white;
+    border-radius: 2px;
+}
+.three {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.four{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.n{
+  color: rgb(78, 83, 99);
+}
+
+.s{
+    color: white;
+}
+
+.five{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.buttons {
+    display: flex;
+    padding: 8px;
+    
+}
+    .myemail{
+        background-color: transparent;
+        outline: none;
+        border: none;
+        background-color: #2c3443;
+        outline: none;
+        border: none;
+        color: #79808a;
+        font-size: 14px;
+  padding: 10px;
+        width: 100%;
+        border-radius: 2px;
+    }
+
+    .icon {
+        width: 34px;
+        border-radius: 6px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-left: 1px solid #79808a;
+        background-color: #2c3443;
+            color: #79808a;
+    }
+   
+    .underline{
+        background-color: white;
+        opacity: 0.5;
+        height: 1px;
+           width: 90%;
+        margin-top: 80px;
+        margin-left: 72px;
+    }
+    .bxfive{
+        display: flex;
+    flex-direction: column;
+    width: 100%;
+   background-color: rgb(7, 8, 26) ;
+    }
+
+
+    .w{
+        display: flex;  
+        gap: 15px;
+        padding-top: 10px;
+        padding: 20px;
+
+    }
+
+    .copy{
+        color: rgb(78, 83, 99);
+        margin-left: 920px;
+    }
+
+
+    

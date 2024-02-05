@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(34, 34, 73);
+}
+
+.btns{
+    color: #79808a;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.myinputone{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #79808a;
+    font-size: 14px;
+padding: 5px;
+    width: 100%;
+}
+
+.inputone{
+    background-color: #2c3443;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+    gap: 10px;
+ 
+}
+
+.padded{
+    padding: 70px;
+}
+
+.inputtwo{
+
+width: 20%;
+}
+.myinputtwo{
+    background-color: #2c3443;
+    outline: none;
+    border: none;
+    color: #79808a;
+    font-size: 14px;
+padding: 10px;
+    width: 100%;
+}
+
+.inputfour{
+    width: 20%;
+ 
+}
+
+.normalinput{
+    width: 100%;
+    padding: 13px;
+    border: none;
+    
+}
+
+.inputthree{
+    width: 20%;
+    background-color: #2c3443;
+    display: flex;
+    padding: 7px;
+    gap: 2px;
+}
+
+.lines{
+    border-left: 1px solid #79808a;
+}
